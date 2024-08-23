@@ -32,4 +32,11 @@ final class CoveredClassTests: XCTestCase {
         
         XCTAssertEqual(result, "2")
     }
+    
+    func test_area_withWidth7_shouldBe49() {
+        let sut = CoveredClass()
+        sut.width = 7
+        
+        XCTAssertEqual(sut.area, 49)
+    }
 }
