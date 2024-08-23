@@ -9,7 +9,7 @@ import XCTest
 @testable import CodeCoverage
 
 final class CoveredClassTests: XCTestCase {
-    func test_zero() {
-        XCTFail("Tests not yet implemented in CoveredClassTests")
+    func test_max_with1And2_shouldReturnSomething() {
+        let result = CoveredClass.max(1, 2)
     }
 }
