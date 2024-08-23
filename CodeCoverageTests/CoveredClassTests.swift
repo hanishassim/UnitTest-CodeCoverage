@@ -14,4 +14,10 @@ final class CoveredClassTests: XCTestCase {
         
         XCTAssertEqual(result, 2)
     }
+    
+    func test_max_with3And2_shouldReturn3() {
+        let result = CoveredClass.max(3, 2)
+        
+        XCTAssertEqual(result, 3)
+    }
 }
